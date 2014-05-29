@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1399509675 source:c:\users\tanc\desktop\c\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+

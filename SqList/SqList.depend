@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1399299201 source:c:\users\tanc\desktop\c\sqlisr\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1399299201 source:c:\users\tanc\desktop\c\sqlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
