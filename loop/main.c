@@ -36,6 +36,7 @@ status CreateListWithLoop(LinkList *L)
 
     p = (*L);
 
+    p->prior = p->next = NULL;
 
     int i = 10;
 
