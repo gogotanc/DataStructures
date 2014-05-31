@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1401537399 source:d:\allprojects\c\magician\main.c
+	<stdio.h>
+	<stdlib.h>
+
