@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1401897288 source:d:\allprojects\c\rpn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+
