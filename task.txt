@@ -1,4 +1,4 @@
-一、有环链表		ok		loop
-二、约瑟夫问题		ok		Josephus
-三、双向链表		ok		Caesar
+一、有环链表		ok		loop.c
+二、约瑟夫问题		ok		Josephus.c
+三、双向链表		ok		Caesar.c
 四、魔术师发牌		ok		Magician.c
