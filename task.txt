@@ -1,5 +1,8 @@
-一、有环链表		ok		loop.c
-二、约瑟夫问题		ok		Josephus.c
-三、双向链表		ok		Caesar.c
-四、魔术师发牌		ok		Magician.c
-五、
+一、有环链表			ok		loop
+二、约瑟夫问题			ok		Josephus
+三、双向链表			ok		Caesar
+四、魔术师发牌			ok		Magician
+五、顺序队列		
+六、逆波兰表达式		ok		RPN
+七、中缀表达式变后缀表达式	
+八、折半查找（递归实现）
