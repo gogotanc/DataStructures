@@ -4,5 +4,7 @@
 四、魔术师发牌			ok		Magician
 五、顺序队列			ok		cycleQueue
 六、逆波兰表达式		ok		RPN
-七、中缀表达式变后缀表达式	
+七、中缀表达式变后缀表达式	ok		nifixExpression
 八、折半查找（递归实现）
+九、KMP算法（看毛片算法）
+十、BF算法			ok		BF
