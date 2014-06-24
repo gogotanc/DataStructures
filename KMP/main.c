@@ -5,6 +5,44 @@
 
 typedef char        ElemType;
 
+//方法三 小甲鱼实现
+//  i 表示前缀
+//  j 表示后缀
+void method_3( ElemType *str, ElemType *next )
+{
+    int i=0, j=1;
+    int len;
+
+    len = str[0];
+    next[0] = len;
+
+    next[1] = 0;
+
+    while( j <= len )
+    {
+        if( i==0 || str[i] == str[j] )
+        {
+            i++;
+            j++;
+            next[j] = i;    //此处优化
+            /*
+            if( str[i] != str[j] )
+            {
+                 next[j] = i;
+            }
+            else
+            {
+                next[j] = next[i];
+            }
+            */
+        }
+        else
+        {
+            i = next[i];
+        }
+    }
+}
+
 //方法二
 void method_2( ElemType *str, ElemType *next )
 {
@@ -68,15 +106,6 @@ void method_1( ElemType *str, ElemType *next )
             if( z == j )
                 break;
         }
-
-        /*count = 1;
-        for( k=j-1,x=1; x<k; x++ )
-        {
-            if( str[k] != str[x] )
-                break;
-            count++;
-        }
-        next[j] = count;*/
     }
 }
 
@@ -104,7 +133,8 @@ int main()
     str[0] = len;
 
     //method_1( str, next );
-    method_2( str, next );
+    //method_2( str, next );
+    method_3( str, next );
 
     for( i=1; i<=next[0]; i++ )
         printf("%d", next[i]);
