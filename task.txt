@@ -10,4 +10,4 @@
 十、BF算法			ok		BF
 十一、二叉树实现		ok		BTree
 十二、线索二叉树实现				BTree2
-十三、赫夫曼编码				Huffman
+十三、赫夫曼编码		ok		Huffman
